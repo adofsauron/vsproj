@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{93320C41-D11F-4B3F-A669-7E458A1C6B82}</ProjectGuid>
+    <RootNamespace>Project2</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="DS_C\aatree.c" />
+    <ClCompile Include="DS_C\avltree.c" />
+    <ClCompile Include="DS_C\binheap.c" />
+    <ClCompile Include="DS_C\binomial.c" />
+    <ClCompile Include="DS_C\cursor.c" />
+    <ClCompile Include="DS_C\disjsets.c" />
+    <ClCompile Include="DS_C\dsl.c" />
+    <ClCompile Include="DS_C\fig10_38.c" />
+    <ClCompile Include="DS_C\fig10_40.c" />
+    <ClCompile Include="DS_C\fig10_43.c" />
+    <ClCompile Include="DS_C\fig10_45.c" />
+    <ClCompile Include="DS_C\fig10_46.c" />
+    <ClCompile Include="DS_C\fig10_53.c" />
+    <ClCompile Include="DS_C\fig10_54.c" />
+    <ClCompile Include="DS_C\fig10_55.c" />
+    <ClCompile Include="DS_C\fig10_62.c" />
+    <ClCompile Include="DS_C\fig1_2.c" />
+    <ClCompile Include="DS_C\fig1_3.c" />
+    <ClCompile Include="DS_C\fig1_4.c" />
+    <ClCompile Include="DS_C\fig2_10.c" />
+    <ClCompile Include="DS_C\fig2_11.c" />
+    <ClCompile Include="DS_C\fig2_9.c" />
+    <ClCompile Include="DS_C\hashfunc.c" />
+    <ClCompile Include="DS_C\hashquad.c" />
+    <ClCompile Include="DS_C\hashsep.c" />
+    <ClCompile Include="DS_C\kdtree.c" />
+    <ClCompile Include="DS_C\leftheap.c" />
+    <ClCompile Include="DS_C\list.c" />
+    <ClCompile Include="DS_C\max_sum.c" />
+    <ClCompile Include="DS_C\pairheap.c" />
+    <ClCompile Include="DS_C\poly.c" />
+    <ClCompile Include="DS_C\queue.c" />
+    <ClCompile Include="DS_C\redblack.c" />
+    <ClCompile Include="DS_C\sort.c" />
+    <ClCompile Include="DS_C\splay.c" />
+    <ClCompile Include="DS_C\stackar.c" />
+    <ClCompile Include="DS_C\stackli.c" />
+    <ClCompile Include="DS_C\testaa.c" />
+    <ClCompile Include="DS_C\testavl.c" />
+    <ClCompile Include="DS_C\testbin.c" />
+    <ClCompile Include="DS_C\testcurs.c" />
+    <ClCompile Include="DS_C\testdsl.c" />
+    <ClCompile Include="DS_C\testhash.c" />
+    <ClCompile Include="DS_C\testheap.c" />
+    <ClCompile Include="DS_C\testleft.c" />
+    <ClCompile Include="DS_C\testlist.c" />
+    <ClCompile Include="DS_C\testpair.c" />
+    <ClCompile Include="DS_C\testque.c" />
+    <ClCompile Include="DS_C\testrb.c" />
+    <ClCompile Include="DS_C\testsply.c" />
+    <ClCompile Include="DS_C\teststka.c" />
+    <ClCompile Include="DS_C\teststkl.c" />
+    <ClCompile Include="DS_C\testtree.c" />
+    <ClCompile Include="DS_C\testtrp.c" />
+    <ClCompile Include="DS_C\treap.c" />
+    <ClCompile Include="DS_C\tree.c" />
+    <ClCompile Include="Main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DS_C\aatree.h" />
+    <ClInclude Include="DS_C\avltree.h" />
+    <ClInclude Include="DS_C\binheap.h" />
+    <ClInclude Include="DS_C\binomial.h" />
+    <ClInclude Include="DS_C\cursor.h" />
+    <ClInclude Include="DS_C\dsl.h" />
+    <ClInclude Include="DS_C\fatal.h" />
+    <ClInclude Include="DS_C\hashquad.h" />
+    <ClInclude Include="DS_C\hashsep.h" />
+    <ClInclude Include="DS_C\leftheap.h" />
+    <ClInclude Include="DS_C\list.h" />
+    <ClInclude Include="DS_C\pairheap.h" />
+    <ClInclude Include="DS_C\queue.h" />
+    <ClInclude Include="DS_C\redblack.h" />
+    <ClInclude Include="DS_C\splay.h" />
+    <ClInclude Include="DS_C\stackar.h" />
+    <ClInclude Include="DS_C\stackli.h" />
+    <ClInclude Include="DS_C\treap.h" />
+    <ClInclude Include="DS_C\tree.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
